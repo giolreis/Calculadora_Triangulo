@@ -20,7 +20,18 @@ namespace Triangle
             Console.WriteLine("Insira o valor de a:") //V2.1
             Console.ReadLine(valorB) //V2.1
             Console.ReadLine(valorC) //V2.2
+            double a, b ,c;
+
+            Console.WriteLine("Bem vindo ao Calc \n\n");
+            Console.WriteLine("Calcule a area do triangulo \n\n");
+            Console.WriteLine("Insira o valor da Base do Triangulo:"); 
             a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Insira o valor da altura do Triangulo:");
+            b = double.Parse(Console.ReadLine());
+            Console.WriteLine("");
+            c = ((a * b)/2);
+            Console.WriteLine("O Valor da area do triângulo é {0}",c);
+
         }
     }
 }
