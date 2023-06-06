@@ -14,7 +14,7 @@ namespace Triangle
 
             Console.WriteLine("Bem vindo ao Calc \n\n");
             Console.WriteLine("Calcule a area do triangulo \n\n");
-            Console.WriteLine("");
+            Console.WriteLine("Área do triâgulo calculada:"); //V2.2
             a = double.Parse(Console.ReadLine());
         }
     }
