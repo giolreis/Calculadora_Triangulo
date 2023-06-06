@@ -18,6 +18,9 @@ namespace Triangle
             a = double.Parse(Console.ReadLine());
             Console.WriteLine("Insira o valor da altura do Triangulo:");
             b = double.Parse(Console.ReadLine());
+            Console.WriteLine("");
+            c = ((a * b)/2);
+            Console.WriteLine("O Valor da area do triângulo é {0}",c);
 
         }
     }
