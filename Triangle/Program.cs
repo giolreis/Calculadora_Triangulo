@@ -10,11 +10,14 @@ namespace Triangle
     {
         static void Main(string[] args)
         {
+            int valorA;
             double a, b c;
 
             Console.WriteLine("Bem vindo ao Calc \n\n");
             Console.WriteLine("Calcule a area do triangulo \n\n");
             Console.WriteLine("Área do triâgulo calculada:"); //V2.2
+            Console.WriteLine("Insira o valor de a:")
+            Console.ReadLine(valorA)
             a = double.Parse(Console.ReadLine());
         }
     }
